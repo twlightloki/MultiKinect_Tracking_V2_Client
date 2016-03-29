@@ -1,0 +1,58 @@
+﻿Build started 1/22/2016 1:06:11 PM.
+     1>Project "F:\C++ project\MultiKinect_Tracking_V2_Client\MultiKinect_Tracking_V2_Client.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Client.cpp Controller.cpp KinectOperation.cpp Main.cpp
+         Client.cpp
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(11): warning C4091: 'typedef ' : ignored on left of 'TimingMessage' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(18): warning C4091: 'typedef ' : ignored on left of 'CalibrationMessage' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(26): warning C4091: 'typedef ' : ignored on left of 'TrilaterationMessage' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(32): warning C4091: 'typedef ' : ignored on left of 'SeverBuffer' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(44): warning C4091: 'typedef ' : ignored on left of 'ThreadParam' when no variable is declared
+         Generating Code...
+         Compiling...
+         Main.cpp
+     1>f:\c++ project\multikinect_tracking_v2_client\main.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(11): warning C4091: 'typedef ' : ignored on left of 'TimingMessage' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(18): warning C4091: 'typedef ' : ignored on left of 'CalibrationMessage' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(26): warning C4091: 'typedef ' : ignored on left of 'TrilaterationMessage' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(32): warning C4091: 'typedef ' : ignored on left of 'SeverBuffer' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(44): warning C4091: 'typedef ' : ignored on left of 'ThreadParam' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\main.cpp(108): warning C4101: 'rect' : unreferenced local variable
+     1>f:\c++ project\multikinect_tracking_v2_client\main.cpp(107): warning C4101: 'ps' : unreferenced local variable
+     1>f:\c++ project\multikinect_tracking_v2_client\main.cpp(106): warning C4101: 'hdc' : unreferenced local variable
+         KinectOperation.cpp
+     1>f:\c++ project\multikinect_tracking_v2_client\kinectoperation.cpp(144): warning C4244: 'initializing' : conversion from 'double' to 'INT', possible loss of data
+     1>f:\c++ project\multikinect_tracking_v2_client\kinectoperation.cpp(145): warning C4244: 'initializing' : conversion from 'double' to 'INT', possible loss of data
+     1>f:\c++ project\multikinect_tracking_v2_client\kinectoperation.cpp(164): warning C4244: '=' : conversion from 'double' to 'INT', possible loss of data
+     1>f:\c++ project\multikinect_tracking_v2_client\kinectoperation.cpp(167): warning C4244: '=' : conversion from 'double' to 'INT', possible loss of data
+     1>f:\c++ project\multikinect_tracking_v2_client\kinectoperation.cpp(177): warning C4244: '=' : conversion from 'double' to 'INT', possible loss of data
+     1>f:\c++ project\multikinect_tracking_v2_client\kinectoperation.cpp(183): warning C4244: '=' : conversion from 'INT' to 'float', possible loss of data
+     1>f:\c++ project\multikinect_tracking_v2_client\kinectoperation.cpp(184): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\c++ project\multikinect_tracking_v2_client\kinectoperation.cpp(243): warning C4244: '=' : conversion from 'double' to 'INT', possible loss of data
+     1>f:\c++ project\multikinect_tracking_v2_client\kinectoperation.cpp(262): warning C4244: '=' : conversion from 'double' to 'INT', possible loss of data
+     1>f:\c++ project\multikinect_tracking_v2_client\kinectoperation.cpp(285): warning C4244: '=' : conversion from 'double' to 'INT', possible loss of data
+     1>f:\c++ project\multikinect_tracking_v2_client\kinectoperation.cpp(336): warning C4244: '=' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>f:\c++ project\multikinect_tracking_v2_client\kinectoperation.cpp(337): warning C4244: '=' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>f:\c++ project\multikinect_tracking_v2_client\kinectoperation.cpp(338): warning C4244: '=' : conversion from 'DOUBLE' to 'float', possible loss of data
+         Controller.cpp
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(11): warning C4091: 'typedef ' : ignored on left of 'TimingMessage' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(18): warning C4091: 'typedef ' : ignored on left of 'CalibrationMessage' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(26): warning C4091: 'typedef ' : ignored on left of 'TrilaterationMessage' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(32): warning C4091: 'typedef ' : ignored on left of 'SeverBuffer' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\client.h(44): warning C4091: 'typedef ' : ignored on left of 'ThreadParam' when no variable is declared
+     1>f:\c++ project\multikinect_tracking_v2_client\controller.cpp(49): warning C4101: 'pBodyCurrent' : unreferenced local variable
+     1>f:\c++ project\multikinect_tracking_v2_client\controller.cpp(51): warning C4101: 'nConnected' : unreferenced local variable
+     1>f:\c++ project\multikinect_tracking_v2_client\controller.cpp(51): warning C4101: 'nProofread' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\C++ project\MultiKinect_Tracking_V2_Client\Debug\MultiKinect_Tracking_V2_Client.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Lib\x86" Kinect20.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\C++ project\MultiKinect_Tracking_V2_Client\Debug\MultiKinect_Tracking_V2_Client.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\C++ project\MultiKinect_Tracking_V2_Client\Debug\MultiKinect_Tracking_V2_Client.lib" /MACHINE:X86 Debug\Client.obj
+         Debug\Controller.obj
+         Debug\HRC.obj
+         Debug\KinectOperation.obj
+         Debug\Main.obj
+         MultiKinect_Tracking_V2_Client.vcxproj -> F:\C++ project\MultiKinect_Tracking_V2_Client\Debug\MultiKinect_Tracking_V2_Client.exe
+     1>Done Building Project "F:\C++ project\MultiKinect_Tracking_V2_Client\MultiKinect_Tracking_V2_Client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.13
